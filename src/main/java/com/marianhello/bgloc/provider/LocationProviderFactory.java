@@ -33,9 +33,9 @@ public class LocationProviderFactory {
             case Config.DISTANCE_FILTER_PROVIDER:
                 provider = new DistanceFilterLocationProvider(mContext);
                 break;
-            case Config.ACTIVITY_PROVIDER:
-                provider = new ActivityRecognitionLocationProvider(mContext);
-                break;
+//            case Config.ACTIVITY_PROVIDER:
+//                provider = new ActivityRecognitionLocationProvider(mContext);
+//                break;
             case Config.RAW_PROVIDER:
                 provider = new RawLocationProvider(mContext);
                 break;
